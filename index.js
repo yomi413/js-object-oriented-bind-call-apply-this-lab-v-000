@@ -4,6 +4,5 @@ const justInvoke = function(fn) {
 }
 
 const setThisWithCall = function(fn, thisValue, arg) {
-
-  return thisValue = fn.call(arg)
+  
 }
